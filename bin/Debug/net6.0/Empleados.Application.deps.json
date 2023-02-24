@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Empleados.Application/1.0.0": {
+        "dependencies": {
+          "Empleados.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Empleados.Application.dll": {}
+        }
+      },
+      "Empleados.Dominio/1.0.0": {
+        "runtime": {
+          "Empleados.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Empleados.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Empleados.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

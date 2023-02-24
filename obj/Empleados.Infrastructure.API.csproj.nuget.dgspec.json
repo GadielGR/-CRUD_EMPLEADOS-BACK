@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.API\\Empleados.Infrastructure.API.csproj": {}
+  },
+  "projects": {
+    "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj",
+        "projectName": "Empleados.Application",
+        "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj",
+        "packagesPath": "C:\\Users\\Gadiel\\.nuget\\packages\\",
+        "outputPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gadiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj": {
+                "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj",
+        "projectName": "Empleados.Dominio",
+        "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Gadiel\\.nuget\\packages\\",
+        "outputPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gadiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.API\\Empleados.Infrastructure.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.API\\Empleados.Infrastructure.API.csproj",
+        "projectName": "Empleados.Infrastructure.API",
+        "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.API\\Empleados.Infrastructure.API.csproj",
+        "packagesPath": "C:\\Users\\Gadiel\\.nuget\\packages\\",
+        "outputPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gadiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj": {
+                "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj"
+              },
+              "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj": {
+                "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj"
+              },
+              "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.Data\\Empleados.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.Data\\Empleados.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.Data\\Empleados.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.Data\\Empleados.Infrastructure.Data.csproj",
+        "projectName": "Empleados.Infrastructure.Data",
+        "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.Data\\Empleados.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Gadiel\\.nuget\\packages\\",
+        "outputPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gadiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj": {
+                "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Application\\Empleados.Application.csproj"
+              },
+              "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj": {
+                "projectPath": "D:\\my_projects\\evaluacion\\api-crud-empleados\\Empleados.Dominio\\Empleados.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
